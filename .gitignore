@@ -1,0 +1,48 @@
+### Node.js ###
+node_modules/
+dist/
+.env
+.env.*
+*.log
+npm-debug.log*
+.npm/
+.cache/
+.parcel-cache/
+.turbo/
+
+### OS ###
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+### Editor / IDE / AI tooling ###
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# Cursor (derived state)
+.cursor/
+# .cursorrules
+# .cursorindexingignore
+# .cursorignore
+
+# Claude tooling (state/history)
+.claude/
+# CLAUDE.md
+# RULES.md
+# RULE.md
+
+# SpecStory (generated artifacts)
+.specstory/
+
+# Vector / LLM caches
+.embeddings/
+.chroma/
+.vector_cache/
+.rag/
+.llm_cache/
+.prompt_cache/
